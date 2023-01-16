@@ -1,0 +1,204 @@
+V "GNAT Lib v10"
+M P W=b
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_ALIASING
+RV NO_IMPLICIT_LOOPS
+RV STATIC_DISPATCH_TABLES
+RV SPARK_05
+
+U accomroomsize%b	accomroomsize.adb	be3d50e1 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.generic_array_sort%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+W ada.containers.vectors%s
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.iterator_interfaces%s
+Z ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+Z ada.text_io.enumeration_io%s
+Z ada.unchecked_deallocation%s
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.address_image%s  s-addima.adb		s-addima.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+Z system.val_enum%s	s-valenu.adb		s-valenu.ali
+
+D accomroomsize.adb	20230116161013 8eff73ac accomroomsize%b
+D ada.ads		20200723063517 76789da1 ada%s
+D a-charac.ads		20200723063517 2d3ec45b ada.characters%s
+D a-chlat1.ads		20200723063517 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20200723063517 61e5e089 ada.containers%s
+D a-cgarso.ads		20200723063517 9129bfa8 ada.containers.generic_array_sort%s
+D a-conhel.ads		20200723063517 20298884 ada.containers.helpers%s
+D a-conhel.adb		20200723063517 e8b6ff51 ada.containers.helpers%b
+D a-convec.ads		20200723063517 7e2b0fdf ada.containers.vectors%s
+D a-convec.adb		20200723063517 08afd670 ada.containers.vectors%b
+D a-except.ads		20200723063517 a7106115 ada.exceptions%s
+D a-finali.ads		20200723063517 bf4f806b ada.finalization%s
+D a-inteio.ads		20200723063517 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200723063517 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20200723063517 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20200723063517 119b8fb3 ada.streams%s
+D a-string.ads		20200723063517 90ac6797 ada.strings%s
+D a-strmap.ads		20200723063517 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20200723063517 1656705b ada.strings.unbounded%s
+D a-tags.ads		20200723063517 491b781d ada.tags%s
+D a-textio.ads		20200723063517 aef4d56d ada.text_io%s
+D a-tienau.ads		20200723063517 6a9c157b ada.text_io.enumeration_aux%s
+D a-tienio.ads		20200723063517 2e79c9bf ada.text_io.enumeration_io%s
+D a-tienio.adb		20200723063517 c9e6b5af ada.text_io.enumeration_io%b
+D a-tiinio.ads		20200723063517 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200723063517 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20200723063517 eff36322 ada.unchecked_deallocation%s
+D interfac.ads		20200723063517 5ab55268 interfaces%s
+D i-cstrea.ads		20200723063517 e53d8b8e interfaces.c_streams%s
+D system.ads		20200723063517 4635ec04 system%s
+D s-addima.ads		20200723063517 a1ec9d3a system.address_image%s
+D s-atocou.ads		20200723063517 b45c2d8d system.atomic_counters%s
+D s-atocou.adb		20200723063517 b65612c0 system.atomic_counters%b
+D s-conca2.ads		20200723063517 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200723063517 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200723063517 54135002 system.exception_table%s
+D s-ficobl.ads		20200723063517 078245e4 system.file_control_block%s
+D s-finmas.ads		20200723063517 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200723063517 4ff27390 system.finalization_root%s
+D s-imenne.ads		20200723063517 614c06c0 system.img_enum_new%s
+D s-memory.ads		20200723063517 597d6634 system.memory%s
+D s-parame.ads		20200723063517 48ec542b system.parameters%s
+D s-pooglo.ads		20200723063517 ede33ef8 system.pool_global%s
+D s-secsta.ads		20200723063517 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200723063517 a7318a92 system.soft_links%s
+D s-stache.ads		20200723063517 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200723063517 09bd3940 system.standard_library%s
+D s-stalib.adb		20200723063517 f2fe2716 system.standard_library%b
+D s-stoele.ads		20200723063517 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20200723063517 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20200723063517 b16154c2 system.storage_pools%s
+D s-stposu.ads		20200723063517 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20200723063517 aedef97e system.stream_attributes%s
+D s-traent.ads		20200723063517 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200723063517 34867c83 system.unsigned_types%s
+D s-valenu.ads		20200723063517 6201ebfb system.val_enum%s
+D s-wchcon.ads		20200723063517 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [accomroomsize standard 10 11 none]
+X 1 accomroomsize.adb
+10U11*AccomRoomSize 10b11 93l5 93t18
+12I10 LengthCM<integer> 25r17 26r17
+13I10 AreaCM2<integer> 59r57 62r18 70r32
+15E10 RoomType 17e38 19r55 24r21
+16n10 Launge{15E10} 88r32
+16n18 Bedroom{15E10} 90r32
+16n27 Kitchen{15E10} 87r32
+16n36 Bathroom{15E10} 89r32
+17n10 DiningRoom{15E10}
+17n22 UtilityRoom{15E10}
+17n35 WC{15E10}
+19K13 RoomType_IO[23|26] 20r9
+22R10 Room 27e19 29r29 40r26 45r14 61r14
+24e13 rType{15E10} 31r16
+25i13 x{12I10} 33r24 70r43
+26i13 y{12I10} 35r24 70r50
+29U15 Put_Room 29b15 29>24 37l9 37t17 52s13
+29r24 rm{22R10} 31r13 33r21 35r21
+39K13 RoomLists[9|73] 41r9 43r33 44r13 48r14 49r20 50r19 55r13 59r32 60r13
+. 66r14 67r20 68r19 72r13 77r32 84r15 86r5 87r5 88r5 89r5 90r5
+43U15 Put_Rooms 43b15 43>25 57l9 57t18 91s5
+43r25 rooms{9|88R9[39]} 48r30
+44r9 i{9|99R9[39]} 48m9 49r15 50r37 55m28 55r28
+45r9 rm{22R10} 50m13 52r22
+59V14 TotalArea{13I10} 59b14 59>24 75l9 75t18 80s21
+59r24 rooms{9|88R9[39]} 66r30
+60r9 i{9|99R9[39]} 66m9 67r15 68r37 72m28 72r28
+61r9 rm{22R10} 68m13 70r40 70r47
+62i9 result{13I10} 64m9 70m13 70r23 74r16
+77U15 Put_Area 77b15 77>24 82l9 82t17 92s5
+77r24 rooms{9|88R9[39]} 80r31
+84r5 myRooms{9|88R9[39]} 86m21 86r21 87m22 87r22 88m22 88r22 89m22 89r22
+. 90m22 90r22 91r15 92r14
+X 2 ada.ads
+16K9*Ada 1|1r6 2r5 3r6 4r5 5r6 6r5 7r6 8r5 39r30 2|20e8
+X 5 a-contai.ads
+16K13*Containers 1|7r10 8r9 39r34 5|28e19
+X 9 a-convec.ads
+61I9 Index_Type 1|40r32
+62+9 Element_Type 1|40r10
+73k24*Vectors 1|7w21 39r45 9|824e27
+88R9 Vector<12|43R9> 1|43r43[39] 59r42[39] 77r42[39] 84r25[39]
+99R9 Cursor 1|44r23[39] 60r23[39]
+104r4 No_Element{99R9[1|39]} 1|49r30[39] 67r30[39]
+180U14 Clear 1|86s15[39]
+203V13 Element{1|22R10} 1|50s29[39] 68s29[39]
+431U14 Append 1|87s15[39] 88s15[39] 89s15[39] 90s15[39]
+515V13 First{99R9[1|39]} 1|48s24[39] 66s24[39]
+539U14 Next 1|55s23[39] 72s23[39]
+X 13 a-inteio.ads
+18K13*Integer_Text_IO[25|46] 1|3w10 4r9
+X 15 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[9|111]>
+X 17 a-string.ads
+16K13*Strings 1|5r10 6r9 17|35e16
+X 19 a-strunb.ads
+82K21*Unbounded 1|5w18 6r17 19|756e26
+X 21 a-textio.ads
+57K13*Text_IO 1|1w10 2r9 21|727e16
+465U14*Put 1|32s9 34s9 36s9 79s9
+508U14*Put_Line 1|53s13 81s9
+X 23 a-tienio.ads
+24E9 Enum 1|19r47
+26k21*Enumeration_IO 1|19r32 23|76e31
+52U14 Put 1|31s9[19]
+X 25 a-tiinio.ads
+80U14*Put 1|33s9[13|18] 35s9[13|18] 80s9[13|18]
+X 30 system.ads
+67M9*Address
+X 41 s-memory.ads
+53V13*Alloc{30|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{30|67M9} 105i<c,__gnat_realloc>22
+X 48 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
